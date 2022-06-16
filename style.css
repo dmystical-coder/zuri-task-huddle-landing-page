@@ -1,0 +1,159 @@
+:root{
+    --pink: hsl(322, 100%, 66%);
+    --very-pale-cyan: hsl(193, 100%, 96%);
+    --very-dark-cyan: hsl(192, 100%, 9%);
+    --grayish-blue: hsl(208, 11%, 55%);
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./images/bg-hero-desktop.svg");
+    background-color: var(--very-pale-cyan);
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+header{
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+header button{
+    background-color: #fff;
+    color: var(--very-dark-cyan);
+    border-radius: 30px;
+    padding: 10px 50px;
+    border: none;
+    cursor: pointer;
+}
+header button:hover{
+    opacity: .8;
+}
+.logo img{
+    height: 1.5em;
+}
+
+main{
+    margin: 0px 50px 50px;
+}
+
+#first{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.content{
+    width: 40%;
+    margin-top:75px;
+}
+.content h1{
+    font-size: 35px;
+    width: 100%;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.content p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.content button{
+    padding: 15px 60px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: var(--pink);
+    border: none;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.content button:hover{
+    opacity: .6;
+}
+
+.hero-img{
+    width: 50%;
+    background-image: url("./images/illustration-mockups.svg");
+    background-size: contain;
+    background-repeat: no-repeat;   
+}
+
+#second, #third{
+    padding: 10px;
+    width: 100%;
+}
+.card{
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px 20px 40px;
+
+}
+.card .img-1{
+    width: 70%;
+    float: right;
+}
+.content{
+    width: 45%;
+}
+.grow{
+    width: 50%;
+}
+.card .img-2{
+    float: left;
+    width: 70%;
+}
+
+.call-to-action{
+    position: relative;
+    top: 140px;
+    left: 250px;
+    font-size: 14px;
+    flex-direction: column;
+    width: 50%;
+    padding: 40px;
+}
+
+.call-to-action button{
+    margin: 0 auto;
+    width: 60%;
+    margin-top: 20px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: var(--pink);
+    border: none;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.call-to-action button:hover{
+    opacity: .6;
+}
+
+footer{
+    margin-top: 0px;
+    padding: 150px 70px;
+    width: 100%;
+    background-color: var(--very-dark-cyan);
+    color: #fff;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.h-logo{
+    background-color: #fff;
+    background-image: url("./images/logo.svg");
+}
+.location, .phone, .mail{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
