@@ -1,0 +1,56 @@
+@media only screen and (max-width: 768px){
+    header{
+        width: 100%;
+        background-image: url("./images/bg-hero-mobile.svg");
+        background-repeat: no-repeat;
+        padding: 25px 10px;
+        height: 100%;
+    }
+    
+    nav button{
+        padding: 6px 30px;
+        
+    }
+    .logo img{
+        height: 1em;
+    }
+    
+    #first{
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .content{
+        width: 100%;
+        text-align: center;
+    }
+    .content h1{
+        font-size: 25px;
+        
+    }
+    .content p{
+        font-size: 17px;
+    }
+    .hero-img img{
+        margin-top: 50px;
+        height: 200px;
+    }
+    main{
+        width: 100%;
+    }
+    #second, #third{
+        padding: 30px 0;
+    }
+    .card{
+        flex-direction: column-reverse;
+        place-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .card img{
+        
+    }
+    .content{
+        width: 100%;
+    }
+}

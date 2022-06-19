@@ -12,18 +12,30 @@
 }
 
 body{
-    background-image: url("./images/bg-hero-desktop.svg");
-    background-color: var(--very-pale-cyan);
-    background-repeat: no-repeat;
     font-family: sans-serif;
+    line-height: 1.4em;
+    transition: all .4s;
 }
 
 header{
-    margin: 50px;
+    background-image: url("./images/bg-hero-desktop.svg");
+    background-color: var(--very-pale-cyan);
+    background-repeat: no-repeat;
+    padding: 50px;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
 }
-header button{
+nav button{
     background-color: #fff;
     color: var(--very-dark-cyan);
     border-radius: 30px;
@@ -31,28 +43,25 @@ header button{
     border: none;
     cursor: pointer;
 }
-header button:hover{
+nav button:hover{
     opacity: .8;
 }
 .logo img{
     height: 1.5em;
 }
 
-main{
-    margin: 0px 50px 50px;
-}
-
 #first{
     display: flex;
     justify-content: space-between;
-    height: 100vh;
+    align-items: center;
+}
+.content{
+    padding: 20px;
 }
 
-.content{
-    width: 40%;
-    margin-top:75px;
-}
+
 .content h1{
+    line-height: 1.5em;
     font-size: 35px;
     width: 100%;
     margin-bottom: 20px;
@@ -75,13 +84,13 @@ main{
     opacity: .6;
 }
 
-.hero-img{
-    width: 50%;
-    background-image: url("./images/illustration-mockups.svg");
-    background-size: contain;
-    background-repeat: no-repeat;   
+.hero-img img{
+    height: 400px;
 }
 
+main{
+    margin-top: 50px;
+}
 #second, #third{
     padding: 10px;
     width: 100%;
