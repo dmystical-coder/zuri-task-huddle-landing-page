@@ -1,55 +1,92 @@
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1024px){
     header{
-        width: 100%;
-        background-image: url("./images/bg-hero-mobile.svg");
-        background-repeat: no-repeat;
-        padding: 25px 10px;
-        height: 100%;
+        background: hsl(193, 100%, 96%) url(./images/bg-hero-mobile.svg) no-repeat;
+        padding: 15px;
+
     }
-    
+
+    nav{
+        margin-bottom: 85px;
+    }
+
+    nav .logo img{
+        width: 50%;
+    }
+
     nav button{
-        padding: 6px 30px;
-        
+        padding: 6px;
+        font-size: 15px;
+        width: 40%;
     }
-    .logo img{
-        height: 1em;
-    }
-    
-    #first{
+
+    #intro{
         flex-direction: column;
-        height: 100vh;
+        text-align: center;
     }
 
     .content{
         width: 100%;
-        text-align: center;
+        padding: 10px;
     }
+
     .content h1{
-        font-size: 25px;
-        
+        font-size: 28px;
     }
+
     .content p{
         font-size: 17px;
+        margin-bottom: 30px;
     }
-    .hero-img img{
-        height: 200px;
+
+    .content button{
+        width: 80%;
+        margin-bottom: 50px;
     }
+
+    #intro img{
+        width: 85%;
+        margin-bottom: 30px;
+    }
+    
     main{
-        width: 100%;
-    }
-    #second, #third{
-        padding: 30px 0;
+        margin-top: 50px;
     }
     .card{
         flex-direction: column-reverse;
-        place-items: center;
-        text-align: center;
-        width: 100%;
+        flex-wrap: wrap;
+        padding: 50px 35.2px;
+    }
+    .item-2{
+        flex-direction: column;
     }
     .card img{
-        
-    }
-    .content{
         width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .content-1, .content-2, .content-3{
+    width: 100%;
+    text-align: center;
+    }
+    .content-1 h1, .content-2 h1, .content-3 h1{
+        font-size: 20px;
+    }
+    .content-1 p, .content-2 p, .content-3 p{
+    font-size: 14px;
+    }
+
+    .content-1 p{
+        width: 105%;
+    }
+
+    .call-to-action{
+        flex-direction: column;
+        width: 80%;
+        font-size: 8px;
+        padding: 30px 10px;
+    }
+    .call-to-action button{
+        width: 200px;
+        font-size: 10px;
     }
 }
