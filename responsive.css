@@ -81,12 +81,46 @@
 
     .call-to-action{
         flex-direction: column;
-        width: 80%;
+        width: 95%;
         font-size: 8px;
-        padding: 30px 10px;
+        padding: 40px 10px;
+        top: 120px;
     }
     .call-to-action button{
         width: 200px;
         font-size: 10px;
+    }
+
+    .useful-links{
+        flex-direction: column;
+        padding-left: 15px;
+        padding-right: 15px ;
+        font-size: 14px;
+    }
+    .footer-logo{
+        width: 50%;
+        margin-left: 15px;
+    }
+
+    .col-1{
+        width: 100%;
+    }
+    .col-1, .col-2, .col-3{
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+    .col-4{
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .social .fa-brands{
+        margin-bottom: 20px;
+    }
+    .copy{
+        text-align: center;
+        font-size: 12px;
+        margin-bottom: 30px;
     }
 }
